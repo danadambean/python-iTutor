@@ -20,7 +20,7 @@ while True:
             print("Caut un numar mai mare")
         elif val > generated:
             print("Caut un numar mai mic")
-        elif val == generated:
+        else :
             print('Corect!')
             break
     except ValueError:
