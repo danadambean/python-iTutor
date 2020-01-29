@@ -16,7 +16,7 @@ while number != 0:
         par.append(x)
     else:
         impar.append(x)
-    i = i + x
+    i += x
     number = int(number / 10)
 print("Suma cifrelor: ", i)
 
@@ -32,10 +32,8 @@ else:
 # Ex 2.
 
 nr = []
-
 i = 0
 max_number = 0
-num = 0
 
 while True:
     num = int(input("Pick a number "))
@@ -43,7 +41,7 @@ while True:
     if num > max_number:
         max_number = num
     if num % 2 != 0:
-        i = i + num
+        i += num
     if num == 0:
         break
 
